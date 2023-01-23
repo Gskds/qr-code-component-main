@@ -49,7 +49,7 @@ code snippet
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+please give me comment if there is any useless declaration either on html or css. Since I want to write(cod) better html structure and clear and maintainable css
 
 ### Useful resources
 
