@@ -25,14 +25,14 @@ img {
 body {
   background-color: hsl(212, 45%, 89%);
   place-content: center;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  
 }
 
 h1 {
   color: hsl(218, 44%, 22%);
   font-size: 2rem;
   font-weight: 700;
-  font-family: 'Rubik', sans-serif;
 }
 
 p {
@@ -54,20 +54,23 @@ p {
   max-width: 60em;
 }
 
-/* Card */
-.card {
-  width: 30rem;
-  height: 45rem;
-  padding: 1.5rem;
-  background: #fff;
-  border-radius: 7px;
+.border-radius {
+  border-radius: 8px;
 }
 
-.card img {
-  border-radius: 7px;
+/* Card */
+.card {
+  width: 25rem;
+  height: 42rem;
+  padding: 1.5rem;
+  background: #fff;
 }
 
 .card__body {
   text-align: center;
+}
+
+.card__body h1 {
   padding-top: 2rem;
+  padding-bottom: 1.5rem;
 }
