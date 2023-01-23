@@ -9,6 +9,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  place-items: center;
+}
+
 body,
 h1,
 p {
@@ -19,3 +23,17 @@ img {
   max-width: 100%;
   display: block;
 }
+
+/* Utility Classes */
+.grid {
+  display: grid;
+}
+
+.container {
+  padding: 0 auto;
+  margin: 0 auto;
+  max-width: 60em;
+}
+
+/* Card */
+
