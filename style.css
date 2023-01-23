@@ -24,7 +24,7 @@ img {
 /* Typography */
 body {
   background-color: hsl(212, 45%, 89%);
-  place-items: center;
+  place-content: center;
   font-family: sans-serif;
 }
 
@@ -55,9 +55,18 @@ p {
 
 /* Card */
 .card {
-  width: 25rem;
-  height: 40rem;
-  padding: 2rem;
+  width: 30rem;
+  height: 45rem;
+  padding: 1.5rem;
   background: #fff;
   border-radius: 7px;
+}
+
+.card img {
+  border-radius: 7px;
+}
+
+.card__body {
+  text-align: center;
+  padding-top: 2rem;
 }
