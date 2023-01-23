@@ -11,6 +11,7 @@ html {
 
 body {
   place-items: center;
+  background-color: hsl(212, 45%, 89%);
 }
 
 body,
@@ -36,4 +37,10 @@ img {
 }
 
 /* Card */
-
+.card {
+  width: 25rem;
+  height: 40rem;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 7px;
+}
