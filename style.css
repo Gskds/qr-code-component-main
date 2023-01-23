@@ -9,10 +9,6 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  place-items: center;
-  background-color: hsl(212, 45%, 89%);
-}
 
 body,
 h1,
@@ -25,7 +21,28 @@ img {
   display: block;
 }
 
+/* Typography */
+body {
+  background-color: hsl(212, 45%, 89%);
+  place-items: center;
+  font-family: sans-serif;
+}
+
+hl {
+  color: hsl(218, 44%, 22%);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+
 /* Utility Classes */
+
 .grid {
   display: grid;
 }
