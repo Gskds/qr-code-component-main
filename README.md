@@ -54,7 +54,8 @@ please give my a comment if there is any useless declaration either on html or c
 
 ### Useful resources
 
-[1](https://youtube.com/@KevinPowell) - His YouTube tutorials help me to write better css reset. I really liked this pattern and will use it going forward.
+-https://youtube.com/@KevinPowell
+- His YouTube tutorials help me to write better css reset. I really liked this pattern and will use it going forward.
 
 ## Author
 
