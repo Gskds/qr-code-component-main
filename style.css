@@ -9,7 +9,6 @@ html {
   font-size: 62.5%;
 }
 
-
 body,
 h1,
 p {
@@ -23,10 +22,11 @@ img {
 
 /* Typography */
 body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
   background-color: hsl(212, 45%, 89%);
-  place-content: center;
   font-family: 'Outfit', sans-serif;
-  
 }
 
 h1 {
@@ -43,10 +43,6 @@ p {
 
 
 /* Utility Classes */
-
-.grid {
-  display: grid;
-}
 
 .container {
   padding: 0 auto;
