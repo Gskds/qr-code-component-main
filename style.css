@@ -40,6 +40,10 @@ body {
   min-height: 100vh;
 }
 
+.flow * + * {
+  margin-top: 2rem;
+}
+
 /* Typography */
 body {
   background-color: var(--crl-slate-300);
@@ -62,10 +66,6 @@ h1 {
   text-align: center;
   width: 32rem;
   padding: 1.8rem;
-}
-
-.card * + * {
-  margin-top: 2rem;
 }
 
 .card__image {
