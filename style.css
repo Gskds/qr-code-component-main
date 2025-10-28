@@ -1,3 +1,17 @@
+:root {
+  --crl-white: hsl(0, 0%, 100%);
+  --crl-slate-300: hsl(212, 45%, 89%);
+  --crl-slate-500: hsl(216, 15%, 48%);
+  --crl-slate-900: hsl(218, 44%, 22%);
+  
+  --fw-regular: 400;
+  --fw-bold: 700;
+  
+  --ff-body: 'Outfit', sans-serif;
+  
+  --border-radius: 2rem;
+}
+
 /* Css reset */
 *,
 *::before,
@@ -20,46 +34,42 @@ img {
   display: block;
 }
 
-/* Typography */
 body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  background-color: hsl(212, 45%, 89%);
-  font-family: 'Outfit', sans-serif;
+}
+
+/* Typography */
+body {
+  background-color: var(--crl-slate-300);
+  font-family: var(--ff-body);
+  font-size: 2rem;
+  font-weight: var(--fw-regular);
 }
 
 h1 {
-  color: hsl(218, 44%, 22%);
-  font-size: 2rem;
-  font-weight: 700;
+  color: var(--crl-slate-900);
+  font-size: 2.85rem;
+  font-weight: var(--fw-bold);
 }
 
-p {
-  color: hsl(220, 15%, 55%);
-  font-size: 1.7rem;
-  font-weight: 400;
-}
-
-
-/* Utility Classes */
-.border-radius {
-  border-radius: 20px;
-}
 
 /* Card */
 .card {
+  color: var(--crl-slate-500);
+  background: var(--crl-white);  
+  border-radius: var(--border-radius);
+  text-align: center;
   width: 32rem;
   height: 50rem;
-  padding: 1.5rem;
-  background: #fff;
+  padding: 1.8rem;
 }
 
 .card * + * {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
-.card__body {
-  text-align: center;
+.card__image {
+  border-radius: var(--border-radius);
 }
-
