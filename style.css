@@ -43,13 +43,6 @@ p {
 
 
 /* Utility Classes */
-
-.container {
-  padding: 0 auto;
-  margin: 0 auto;
-  max-width: 60em;
-}
-
 .border-radius {
   border-radius: 20px;
 }
@@ -62,13 +55,11 @@ p {
   background: #fff;
 }
 
+.card * + * {
+  margin-top: 1.5rem;
+}
+
 .card__body {
   text-align: center;
-  padding: 1rem;
 }
-
-.card__body h1 {
-  padding: 2.3rem 1.5rem 0.5rem 0.5rem;
-}
-
 
