@@ -42,7 +42,7 @@ please give me any comment if there is any useless declaration either on html or
 
 ### Useful resources
 
-- [https://youtube.com/@KevinPowell](https://youtube.com/@KevinPowell) - His YouTube tutorials help me to write better css reset. I really liked this pattern and will use it going forward.
+- [https://youtube.com/@KevinPowell](https://youtube.com/@KevinPowell) - This YouTube tutorials help me to write better css reset. I really liked this pattern and will use it going forward.
 
 ## Author
 
